@@ -1,13 +1,16 @@
+/* box format sizing for all of document */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* background color of webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* consolidated header here with active links to correct sections of the page*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,12 +20,12 @@ body {
         padding-top: 15px;
         margin-right: 20px;
         float: right;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
         font-size: 20px;
         list-style-type: none;
         li {
-            display: inline-block;
-            margin-left: 25px;
+        display: inline-block;
+        margin-left: 25px;
             a {
                 color: #ffffff;
                 text-decoration: none;
@@ -31,12 +34,14 @@ body {
     }
 }
 
+/* format of main header */
 h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
+/* main image format */
 .hero {
     height: 800px;
     width: 100%;
@@ -46,51 +51,60 @@ h1 {
     background-position: center;
 }
 
+/* sizing for all detail text in webpage */
 p {
     font-size: 16px;
 }
 
+/* format for headers inside "content" */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* format for each section in "content" */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+/* box format for each section in "content" */
+#search-engine-optimization,
+#online-reputation-management,
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/* format for all images in "content" */
 .content img {
     max-height: 200px;
 }
 
+/* pushes images with this class left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* pushes images with this class right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* format for headers inside "benefits" */
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* format for box and text inside "benefits" */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -98,18 +112,20 @@ h3 {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* format for images inside "benefits" */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* format for the footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -117,6 +133,7 @@ h3 {
     text-align: center;
 }
 
+/* format for the footer heading specifically */
 .footer h2 {
     font-size: 20px;
 }
