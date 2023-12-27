@@ -7,7 +7,7 @@ A webpage that contains a few sections of information. Each link at the top will
 N/A
 
 ## Visuals
-N/A
+![E9AEEAA0-AFF4-49BD-B471-9DA33521ED6C](https://github.com/MauryIV/module-01-challenge/assets/146037880/f8cbb76d-a3b5-4cef-8001-2dfa3ad7d066)
 
 ## Installation
 N/A
@@ -16,7 +16,7 @@ N/A
 Great tool for comparing long, hard to read code to something more straight forward and simply laid out.
 
 ## Support
-N/A
+file:///Users/mauryhughesivgmail.com/bootcamp/Module-01-Challenge/index.html
 
 ## Roadmap
 N/A
