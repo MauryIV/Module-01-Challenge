@@ -13,10 +13,10 @@ N/A
 N/A
 
 ## Usage
-Great tool for comparing long, hard to read code to something more straight forward and simply laid out.
+Great tool for comparing long, hard to read code to something more straight forward and simply laid out. https://mauryiv.github.io/module-01-challenge/
 
 ## Support
-file:///Users/mauryhughesivgmail.com/bootcamp/Module-01-Challenge/index.html
+NA
 
 ## Roadmap
 N/A
